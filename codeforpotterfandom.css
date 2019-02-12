@@ -1,0 +1,67 @@
+/*body{
+	background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzQN3KVu9eicaz-m9LGIqllAzjPIoKEWFDuFScIbVRY5hFV3ex)no-repeat ; 
+ background-size: cover;}*/
+ body{
+ 	background:#F0E68C; 
+ /*	background-image: url(https://cdn.pixabay.com/photo/2016/01/23/19/47/light-1157952_960_720.jpg) no-repeat;
+ 	background-size: cover;
+*/
+ }
+h1{
+	font-family: libre baskerville;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+h3{
+	font-family: rancho;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+p{
+	font-family: georgia;
+}
+th{
+	border:2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+	font-family: 'Crete Round', sans-serif;
+
+}
+
+
+td
+{
+	border:2px solid black;
+	border-right: 0;
+	border-bottom: 0;
+	font-family:'Crete Round', serif;
+}
+.boderleft{
+border-right:2px solid black; 
+}
+table{
+	background-color: #ADFF2F;
+}
+img{
+	border:3px solid #228B22; 
+}
+
+b{
+	font-family: rancho;
+	text-transform: capitalize;
+	font-size:20px;
+}
+.fonttry{
+
+font-family: 'Lobster', cursive;
+}
+h1:hover{
+	color: #808000
+;
+}
+textarea{
+	color: #F5F5F5
+	border:23px solid black;
+;
+}
+

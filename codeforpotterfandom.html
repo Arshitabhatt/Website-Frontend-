@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Harry potter fandom registration</title>
+	<link rel="stylesheet" type="text/css" href="codeforpotterfandom.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+
+</head>
+<body>
+	<h1>Harry potter fandom registration</h1>
+	<form>
+		<p>
+			<!-- name -->
+				<h3>Add your name</h3>
+			<label class="fonttry" for="n1">First Name</label>
+			<input class="fonttry" id="n1"  type=text" placeholder="John" required="">
+
+			<label class="fonttry" for="n2">Last Name</label>
+			<input class="fonttry" id="n2" type="text" placeholder="Smith"required="">
+		</p>
+		<p>
+			<!-- reel name -->
+			<h3>Add your reel name</h3>
+			<label class="fonttry" for="n3">First Name</label>
+			<input class="fonttry" id="n3"  type=text" placeholder="Harry"required="">
+			<label class="fonttry" for="n4">Last Name</label>
+			<input class="fonttry" id="n4" type="text"  placeholder="Potter"required="">
+		</p>
+		<p>
+			<!-- age -->
+			<label><H3>Age</H3></label>
+			<select>
+				<option>select age group</option>
+				<option>1-10</option>
+				<option>11-20</option>
+				<option>21-30</option>
+				<option>31-40</option>
+			</select>
+		</p>
+		<p>
+			<!-- birthday -->
+			<label> <H3>Bithday:</H3>
+				<select>
+						<option>Month</option>
+						<option>Jan</option>
+						<option>Feb</option>
+						<option>Mar</option>
+						<option>Apr</option>
+						<option>May</option>
+						<option>June</option>
+						<option>July</option>
+						<option>August</option>
+						<option>Sept</option>
+						<option>Oct</option>
+						<option>Nov</option>
+						<option>Dec</option>
+				</select>
+				<select>
+					<option>Date</option>
+					<option></option>
+					<option>2</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					
+				</select>
+				<select>
+					<option>Year</option>
+					<option>1997</option>
+					<option>1998</option>
+					<option>1999</option>
+					<option>2000</option>
+					<option>2001</option>
+					<option>2001</option>
+					<option>2002</option>
+
+				</select>
+				<p>
+					<!-- email and password -->
+					<label class="fonttry" for="mail">Email:</label>
+					<input class="fonttry" id="mail" type="email" placeholder="abc@gmail.com" required>
+					<label class="fonttry" for="pssword">Password:</label>
+					<input class="fonttry" id="pssword" type="Password" pattern=".{5,10}" requied title="5-10 character">
+				</p>
+			<p>
+				<!-- character choice table -->
+				<h3>Choose a Character:</h3>
+				<table border="1">
+					<thead> 
+						<tr>
+							<th>Choose</th>
+							<th>Picture</th>
+							<th>Name</th>
+							<th class="boderleft">Link</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<td><input type="radio" name= "choosename"></td>
+						<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKIpmqVeCAd4NegH7mIAmoHq10-Umve0rjbAChvSFbA52m_1qD" width="200" height="200"></td>
+						<td>Harry Potter</td>
+						<td class="boderleft"><a href="http://harrypotter.wikia.com/wiki/Harry_Potter">Harry wikia</a></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name= "choosename"></td>
+							<td><img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq5fvcOFxPw6RmNZK_4629xCSxvixO3Eq4CS3DgRrF_R1U1fDJ width="200" height="200"></td>
+							<td>Hermione Granger</td>
+							<td class="boderleft"><a href="http://harrypotter.wikia.com/wiki/Hermione_Granger">Hermione wikia</a></td>
+						</tr>
+						
+						<tr>
+							<td><input type="radio" name= "choosename"></td>
+							<td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Ron_Weasley_poster.jpg/220px-Ron_Weasley_poster.jpg" width="200" height="200""></td>
+							<td>Ronald Weasely</td>
+							<td class="boderleft"><a href="http://harrypotter.wikia.com/wiki/Ron_Weasley">Ronald wikia</a></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name= "choosename"></td>
+							<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSs5sGirq66Ha74XBQl-0ynRupmtEH3lb5TbEtFrSPOyrbhMT9S" width="200" height="200"></td>
+							<td>Albus Percival Wulfric Brian Dumbledore</td>
+							<td class="boderleft"><a href="http://harrypotter.wikia.com/wiki/Albus_Dumbledore"> Dumbledore wikia</a></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name= "choosename"></td>
+							<td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjum0r7mdbhsl_2b3iGfbmiLf5bv1n3ifnxP6Kap-h5svDJjq1" width="200" height="200"></td>
+							<td>Tom Riddle (Voldermort)</td>
+							<td class="boderleft"><a href="http://harrypotter.wikia.com/wiki/Voldemort">Vodermort wikia</a></td>
+						</tr>
+					</tbody>
+				</table>
+
+			</p>	
+			<p>
+				<!-- year at hogwarts -->
+				<h3>Hogwarts year:</h3>
+				<select>
+					<OPTION>Year at Hogwarts</OPTION>
+					<option>I</option>
+					<option>II</option>
+					<option>III</option>
+					<option>IV</option>
+					<option>V</option>
+					<option>VI</option>
+					<option>VII</option>
+					<option>Alumni</option>
+				</select>
+			</p>	
+			<p>
+				<!-- house -->
+				<label><h3>House which you're in:</h3></label>
+				<table border="1">
+					<thead>
+						<tr>
+						<th>Choose</th>
+						<th>Name</th>
+						<th class="boderleft">Picture</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><input type="radio" name="choosehouse"></td>
+							<td>Gryffindor</td>
+							<td class="boderleft"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwP_1WKMcqZtayQGjaIhFw7fn1o6aCe5Ui0PhnQEj-Vi2oaMKH7Q" width="200" height="200"></td>
+							
+						</tr>
+						<tr>
+							<td><input type="radio" name="choosehouse"></td>
+							<td>Ravenclaw</td>
+							<td class="boderleft"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJix7qJAUeAkRCz_kLFBHeMveKCnHqslLpajV2JlPOcbdJ4XMt" width="200" height="200"></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="choosehouse"></td>
+							<td>Hufflepuff</td>
+							<td class="boderleft"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLnOUY8JsV9tnnulbxl7nlGmgSGvC_ZYBnmkFaqA0K_b1CmYw9" width="200" height="200"></td>
+						</tr>
+						<tr>
+							<td><input type="radio" name="choosehouse"></td>
+							<td>Slytherin</td>
+							<td class="boderleft"><img src="https://images-na.ssl-images-amazon.com/images/I/71uQOTCFq5L._SY355_.jpg" width="250" height="250"></td>
+						</tr>
+					</tbody>
+				</table>
+			</p>
+			<p>
+				<!-- wand type -->
+				<h3>Wand type to Bewitch:</h3>
+				<select>
+					<option>choose a type</option>
+					<option>11" holly, phoenix feather, nice and supple</option>
+					<option> 10¾", vine, dragon heartstring</option>
+					<option>14", willow, unicorn hair</option>
+					<option>15", elder, Thestral hair</option>
+					<option>13½", yew, phoenix feather</option>
+				</select>
+			</p>
+			<p>
+				<!-- patronus -->
+				<label><h3>Patronus:</h3>
+					<table border="1">
+						<thead><tr>
+							<th>Choose</th>
+							<th>Name</th>
+							<th class="boderleft">Picture</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><input type="radio" name="choosepatronus"></td>
+								<td>Stag</td>
+								<td class="boderleft"><img src="https://vignette.wikia.nocookie.net/harrypotter/images/c/c8/HP_Stag_Patronus.png/revision/latest?cb=20170108235847" width="200" height="200"></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="choosepatronus"></td>
+								<td>Otter</td>
+								<td class="boderleft"><img src="https://vignette.wikia.nocookie.net/harrypotter/images/f/f3/Hermione_Otter_Patronus.png/revision/latest/scale-to-width-down/350?cb=20170109003508" width="200" height="200"></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="choosepatronus"></td>
+								<td>Jack Russell Terrier</td>
+								<td class="boderleft"><img src="https://vignette.wikia.nocookie.net/harrypotter/images/7/7b/Ron%27s_dog_Patronus.jpg/revision/latest?cb=20170108234321" width="200" height="200" ></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="choosepatronus"></td>
+								<td>Phoenix</td>
+								<td class="boderleft"><img src="https://vignette.wikia.nocookie.net/harrypotter/images/5/5a/Dumbledores_phoenix_patronus.jpg/revision/latest?cb=20170108235142" width="200" height="200"></td>
+							</tr>
+							<tr>
+								<td><input type="radio" name="choosepatronus"></td>
+								<td>No Patronus</td>
+								<td class="boderleft">No Patronus</td>
+							
+							</tr>
+							
+						</tbody>
+					</table>
+				</label>
+			</p>
+			<p>
+				<!-- fav spell -->
+				<h3>Spell Of Choice:</h3>
+				<select>
+					<option>choose a spell</option>
+					<option>expelliarmus</option>
+					<option>accio</option>
+					<option>expecto partonum</option>
+					<option>alohomora</option>
+					<option>lumos</option>
+					<option>riddikulus</option>
+					<option>wingardium leviosa</option>
+					<option>obliviate</option>
+					<option>avada kedavra</option>
+				</select>
+			</p>
+			<p>
+				<!-- text area -->
+				<div><label for="advanced"><h3>What make you different from other Potterheads?</h3></label></div>
+				<textarea id="advanced" name="advanced"
+                  rows="3" cols="33" maxlength="500"
+                  wrap="hard"></textarea>
+			</p>
+			<p>
+				<label for="nogood"><b>I SOLMELY SWEAR THAT I AM UPTO NO GOOD</b></label>
+				<input id="nogood"type="checkbox">
+			</p>
+
+
+ 
+		</p>
+		<p><input type="submit"></p>
+	
+		<b><a id ="link"href="file:///C:/Users/HP%20ULTRABOOK%20810G2/Desktop/html/picturegalleryharrypotter.html">link to  gallery</a></b>
+
+	</form>
+
+</body>
+</html>
